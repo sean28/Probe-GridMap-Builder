@@ -1,6 +1,6 @@
 # 🧪 Probe GridMap Builder
 
-This is a web-based tool for analyzing molecular dynamics trajectories (.trr or .nc) using AmberTools' `cpptraj` and generating grid-based spatial distribution maps for probe atoms. Output includes processed PDBs and clustering results, provided in a downloadable ZIP package.  👉 [Live Demo](https://sean28.github.io/MixMD/probe_gridmap_ui.html)
+is a local web-based software interface designed to analyze molecular dynamics (MD) trajectories in .trr or .nc format, powered by the AMBER cpptraj backend. It enables users to generate grid-based interaction maps between protein structures and solvent probe atoms across dynamic frames. You can use this tool for free by clicking <a href="https://drive.google.com/file/d/14x89Ehda61HUxoY_bQcPqJhTKsd0Zd6R/view?usp=sharing">here</a>. 👉 [Live Demo](https://sean28.github.io/MixMD/probe_gridmap_ui.html)
 
 
 ## ✅ Features
