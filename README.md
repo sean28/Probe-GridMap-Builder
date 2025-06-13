@@ -1,6 +1,6 @@
+# 🧪 Probe GridMap Builder
 
-**Probe GridMap Builder** is a local web-based software interface designed to analyze molecular dynamics (MD) trajectories in .trr or .nc format, powered by the AMBER cpptraj backend. It enables users to generate grid-based interaction maps between protein structures and solvent probe atoms across dynamic frames. You can use this tool for free by clicking <a href="https://drive.google.com/file/d/14x89Ehda61HUxoY_bQcPqJhTKsd0Zd6R/view?usp=sharing">here</a>. 👉 [Live Demo](https://sean28.github.io/MixMD/probe_gridmap_ui.html)
-
+**Probe GridMap Builder** is a local web-based software interface designed to analyze molecular dynamics (MD) trajectories in .trr or .nc format, powered by the AMBER cpptraj backend. It enables users to generate grid-based interaction maps between protein structures and solvent probe atoms across dynamic frames. You can use this tool for free by clicking <a href="https://drive.google.com/file/d/1K1mFTVWz9DfuJodU_T8FWALnWP6L7Ddy/view?usp=sharing">here</a>. 👉 [Live Demo](https://sean28.github.io/MixMD/probe_gridmap_ui.html)
 
 ## ✅ Features
 
@@ -11,30 +11,19 @@
 
 ## 📦 Conda Environment Setup
 
-This project is designed to run inside a Conda environment with **AmberTools** and **Flask**.
-
-You can create the environment with the following steps:
-
 ```bash
-# 1. Create a new environment
-conda create -n amber python=3.12
 
-# 2. Activate the environment
-conda activate amber
+# 1. Extract GridMap_denv.tar.gz 
+tar -xzf GridMap_env.tar.gz && cd GridMap_env
 
-# 3. Install required packages
-conda install -c conda-forge ambertools flask pandas matplotlib scikit-learn parmed
-
-# 4. Install additional pip packages
-pip install pytraj amberutils sander pdb4amber packmol-memgen
-
+# 2. Activate Environment
+source bin/activate
 ```
+
 ## 🚀 Run the Server
 
-```
-conda activate amber
+```bash
 python probe-gridmap.py
-
 ```
 open the http://127.0.0.1:8082 
 
@@ -46,3 +35,4 @@ open the http://127.0.0.1:8082
 	•	nonortho.pdb
 	•	nonortho_mark.pdb
 	•	cluster_summary.txt
+	
