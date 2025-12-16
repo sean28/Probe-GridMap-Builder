@@ -25,7 +25,7 @@ source GridMap_env/bin/activate
 ```bash
 python probe-gridmap.py
 ```
-open the http://127.0.0.1:8082 
+open the http://127.0.0.1:8086 
 
 ## 📝 Usage
 
