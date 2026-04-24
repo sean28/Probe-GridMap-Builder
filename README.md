@@ -1,8 +1,6 @@
 # 🧪 Probe GridMap Builder
 
-**Probe GridMap Builder** is a local web-based software interface designed to analyze molecular dynamics (MD) trajectories in trr/nc/xtc format, powered by the AMBER cpptraj backend. It enables users to generate grid-based interaction maps between protein structures and solvent probe atoms across dynamic frames. The runtime environment package is freely available <a href="https://cadd.sean28299.dpdns.org/static/Probe-GridMap-Builder_env.zip">here</a>. The Probe GridMap Builder software package is freely available <a href="https://cadd.sean28299.dpdns.org/static/Probe-GridMap-Builder-20260422.zip">here</a>.
-
-👉 [Live Demo](https://sean28.github.io/MixMD/probe_gridmap_ui.html)
+**Probe GridMap Builder** is a local web-based software interface designed to analyze molecular dynamics (MD) trajectories in trr/nc/xtc format, powered by the AMBER cpptraj backend. It enables users to generate grid-based interaction maps between protein structures and solvent probe atoms across dynamic frames. The runtime environment package is freely available <a href="https://cadd.sean28299.dpdns.org/static/Probe-GridMap-Builder_env.zip">here</a>. The Probe GridMap Builder software package is freely available <a href="https://cadd.sean28299.dpdns.org/static/Probe-GridMap-Builder-20260422.zip">here</a>. 👉 [Live Demo](https://sean28.github.io/MixMD/probe_gridmap_ui.html)
 
 ## ✅ Features
 
